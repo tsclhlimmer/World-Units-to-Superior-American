@@ -1,10 +1,13 @@
+package com.schlimmer.wutsaConvert;
 
 public class WorldUnitsToSuperiorAmerican {
 	
 	//declare variables
 	double inputMeters;
+	double inchesToCm = 2.54;
+	double cmToInches = 0.3937;
 	
-	//2 constructors, one to initalize vars to 0 and 1 of the same name to accept parameters
+	//2 constructors, one to initialize variables to 0 and 1 of the same name to accept parameters
 	//Constructor
 	
 	//Initialize variables
@@ -28,6 +31,16 @@ public class WorldUnitsToSuperiorAmerican {
 		
 		return conversion;
 		
+	}
+	
+	
+	//TODO implement this method in toString()
+	private double milesToKilometers(double inputMiles)
+	{
+		double milesToKilometers = 0.62137119;
+		double conversion = (inputMiles * milesToKilometers);
+		
+		return conversion;
 	}
 	
 	public String toString()
