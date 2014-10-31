@@ -52,7 +52,7 @@ public class WorldUnitsToSuperiorAmerican {
 	
 	public String toString()
 	{
-		return unitValue + " <unitType> is equal to "  + this.conversion(unitValue, mile, kilometer) + " <convertedUnitType>"; //for now
+		return unitValue + " <unitType> is equal to "  + this.conversion(unitValue, unitMeasurementType, unitConvertToType) + " <convertedUnitType>"; //for now
 	}
 	
 
