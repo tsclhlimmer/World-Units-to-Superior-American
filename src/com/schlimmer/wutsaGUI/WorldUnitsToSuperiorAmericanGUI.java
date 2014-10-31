@@ -1,3 +1,4 @@
+package com.schlimmer.wutsaGUI;
 
 
 import java.awt.BorderLayout;
